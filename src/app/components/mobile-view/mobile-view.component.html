@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title [title]="'RegistrApp'"> RegistrApp </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="body">
+    <ion-item>
+      <ion-img class="logo" src="../assets/favicon.png"></ion-img>
+    </ion-item>
+    <ion-item>
+      <h1>RegistrApp</h1>
+    </ion-item>
+
+    <ion-item>
+      <h5>Descripción:</h5>
+      <p class="description">{{ description }}</p>
+    </ion-item>
+
+    <ion-row class="slide-m">
+      <img src="../../../assets/1.png" class="pic-m" />
+      <img src="../../../assets/2.png" class="pic-m" />
+      <img src="../../../assets/3.png" class="pic-m" />
+      <img src="../../../assets/4.png" class="pic-m" />
+      <img src="../../../assets/5.png" class="pic-m" />
+      <img src="../../../assets/6.png" class="pic-m" />
+    </ion-row>
+
+    <a
+      href="https://drive.google.com/file/d/1NrP0XpGwQoGn5Hp6IWMiFhOS568GFD7U/view?usp=drive_link"
+    >
+      <ion-card>
+        <ion-card-content>
+          <div class="android">
+            <ion-icon name="logo-android" size="large"></ion-icon>
+            <p id="titleAndroid">Descarga para Android</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <ion-card>
+      <ion-card-content>
+        <div class="ios">
+          <ion-icon name="phone-portrait-outline" size="large"></ion-icon>
+          <p id="titleAndroid">No Disponible para IOS</p>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

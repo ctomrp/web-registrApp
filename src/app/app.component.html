@@ -1,0 +1,4 @@
+<ion-app>
+  <ion-router-outlet *ngIf="isWeb"></ion-router-outlet>
+  <app-mobile-view *ngIf="!isWeb"></app-mobile-view>
+</ion-app>
