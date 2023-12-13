@@ -12,7 +12,8 @@ export class HomePage implements OnInit {
 
   constructor() {}
   qrCodeData: string =
-    'https://drive.google.com/file/d/1NrP0XpGwQoGn5Hp6IWMiFhOS568GFD7U/view?usp=drive_link';
+    // 'https://drive.google.com/file/d/1NrP0XpGwQoGn5Hp6IWMiFhOS568GFD7U/view?usp=drive_link';
+    'https://github.com/ctomrp/web-registrApp/tree/main/release/app-release.apk';
   qrCodeImage: string | undefined;
 
   ngOnInit() {
